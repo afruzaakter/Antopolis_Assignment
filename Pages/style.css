@@ -261,10 +261,14 @@ a{
 
   .grid-footer{
     display: grid;
-    grid-template-columns: auto auto auto  auto
-    auto;
+    grid-template-columns: auto auto ;
     align-items: center;
     margin-left: 40px;
+  }
+  .footer-link-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
   }
   
   .footer-logo img{
@@ -419,6 +423,41 @@ a{
     height: 56px;
     gap: 5px;
   }
+/* -------------teamwork and environment section --------- */
+  .get-know-title h1{
+    font-size: 30px;
+  }
+  .teamwork-and-environment{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+    align-items: center;
+  } 
+  .teamwork{
+display: grid;
+grid-template-columns: auto;
+  }
+  .teamwork-img img{
+    width: 380px;
+    height: 253px;
+    object-fit: cover;
+  }
+/* ----------------footer ------------------- */
+footer{
+  width: 100%;
+  height: 558px;
+}
+.footer-link-grid{
+display: grid;
+grid-template-columns: auto auto;
+}
+
+.grid-footer{
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  margin-top: 50px;
+}
 
 }
 /* -----------------media query style code end ------------------ */

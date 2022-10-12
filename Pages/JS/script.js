@@ -14,6 +14,10 @@ const swiper = new Swiper(".mySwiper", {
     },
   });
 
+
+ 
+
+
 const hamburger = document.querySelector(".hamburger");
 const menuItem = document.querySelector(".menuItem");
 

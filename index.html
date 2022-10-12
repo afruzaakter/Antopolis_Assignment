@@ -9,28 +9,33 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <!-- ----------CSS Style Sheet --------  -->
       <link rel="stylesheet" href="./Pages/style.css"/>;
-   
+      <!-- -----------Swiper CSS -----------  -->
+     <link rel="stylesheet" href="./Pages/swiper-bundle.min.css">
       
     
 </head>
 <body>
     <!-- ------------------- navbar code start ------------------------ -->
     <nav class="nav">
-        <div>
-            <img src="./Images/Taste now.svg" alt="">
+        <div  class="nav-logo">
+            <img class="nav-logo-1" src="./Images/Taste now.svg" alt="logo">
+            <img src="./Images/footer logo.png" alt="logo">
         </div>
         <div>
-            <ul class="menu-item">
-                <li > <a class="item-1" href="#">Home</a> </li>
-                <li> <a href="#">About us</a> </li>
-                <li> <a href="#">Blog</a> </li>
-                <li> <a href="#">Contact us</a> </li>
-                <li> <a href="#"> <i class="fa-solid fa-cart-shopping"></i> </a> </li>
+            <ul class="menuItem ">
+                <li class="nav-item-1"> <a class="nav-link" href="#">Home</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">About us</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Blog</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Contact us</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#"> <i class="fa-solid fa-cart-shopping"></i> </a> </li>
+                <li class="signup"> <a class="nav-link " href="#"> Sign up </a> </li>
             </ul>
-            
         </div>
-        <div >
-            <button class="signup">Sign up</button>
+        
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
     </nav>
      <!-- ------------------- navbar code end ------------------------ -->
@@ -57,6 +62,71 @@
         <div class="categories-title">
             <h1>Our Popular <span>Categories</span> </h1>
         </div>
+        <!-- -----------swiper start -------------- -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div>
+                    <img src="./Images/pizza 1.png" alt="">
+                </div>
+                <div class="cart-title">
+                    <h1 class="cart-title">Pepperoni Pizza</h1>
+                    <p class="cart-title">Di napoles</p>
+                    <span class="cart-title">$11,99</span>
+                </div>
+                <div>
+                    <button class="cart-button">Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                    <img src="./Images/pizza 2.png" alt="">
+                </div>
+                <div class="cart-title">
+                    <h1 class="cart-title">Pepperoni Pizza</h1>
+                    <p class="cart-title">Di napoles</p>
+                    <span class="cart-title">$11,99</span>
+                </div>
+                <div>
+                    <button class="cart-button">Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                    <img src="./Images/pizza 3.png" alt="">
+                </div>
+                <div class="cart-title">
+                    <h1 class="cart-title">Pepperoni Pizza</h1>
+                    <p class="cart-title">Di napoles</p>
+                    <span class="cart-title">$11,99</span>
+                </div>
+                <div>
+                    <button class="cart-button">Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                    <img src="./Images/pizza 4.png" alt="">
+                </div>
+                <div class="cart-title">
+                    <h1 class="cart-title">Pepperoni Pizza</h1>
+                    <p class="cart-title">Di napoles</p>
+                    <span class="cart-title">$11,99</span>
+                </div>
+                <div>
+                    <button class="cart-button">Add to cart</button>
+                </div>
+              </div>
+              
+            </div class="swiper-icon">
+           
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+           
+           
+          </div>
+        <!-- -----------swiper end -------------- -->
     </section>
     <!-- ------------------- Popular Categories section code end ------------------------ -->
     <!-- ------------------- Teamwork and environment section code start ------------------------ -->
@@ -132,4 +202,11 @@
     </footer>
     <!-- ------------------- Footer code end ------------------------ -->
 </body>
+
+<!-- ----------Swiper JS -------------  -->
+<script src="./Pages/JS/swiper-bundle.min.js"></script>
+
+<!-- --------------JavaScript--------------  -->
+<script src="./Pages/JS/script.js"></script>
+
 </html>

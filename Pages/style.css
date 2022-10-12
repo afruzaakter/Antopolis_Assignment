@@ -302,6 +302,9 @@ a{
     line-height: 17px;
     font-weight: 400;
 }
+.footer-logo-2{
+  display: none;
+}
 /* ------------- Footer style code end --------- --*/
 
 
@@ -353,12 +356,11 @@ a{
   }
 
   .nav-item{
-    margin-left: 20px 0;
+    margin-left: 10px 0;
     color: #ffffff;
   }
   .menuItem.active{
-    left: -460px;
-    /* left: -0px; */
+    left: -0px;
   }
   .menuItem .nav-item a{
     color: #ffffff;
@@ -457,6 +459,35 @@ grid-template-columns: auto auto;
   grid-template-columns: auto;
   align-items: center;
   margin-top: 50px;
+}
+
+
+.footer-logo-2{
+  display: block;
+}
+
+.social-icon{
+  display: none;
+}
+
+.social-icon-2{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  width: 156px;
+  margin: 50px;
+ 
+}
+.footer-logo img{
+  margin-left:70px;
+  margin-top: 50px;
+}
+.social-icon-2 li{
+  list-style: none;
+
+}
+.social-icon-2 li a{
+  color: #ffffff;
 }
 
 }
